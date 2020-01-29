@@ -1,0 +1,25 @@
+body, html {
+    height: 100%;
+  }
+  
+.bg {
+    background-image: url("./background.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-container>div {
+    background-color: black;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    /* line-height: 75px; */
+    /* font-size: 30px; */
+}
