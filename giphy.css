@@ -9,6 +9,21 @@ body, html {
     background-size: cover;
 }
 
+.nasaLogo {
+    align-content: center !important;
+}
+
+.header-title {
+    color: blue;
+    font-family: 'Rajdhani', sans-serif;
+    background-color: black;
+}
+
+.NASA {
+    font-family: 'Righteous', cursive;
+}
+
+
 .flex-container {
     display: flex;
     flex-direction: row;
@@ -22,4 +37,10 @@ body, html {
     text-align: center;
     /* line-height: 75px; */
     /* font-size: 30px; */
+}
+
+.card-title {
+    color: blue;
+    font-weight: bold;
+    font-size: large;
 }
